@@ -3,24 +3,24 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Build Step'
+                echo 'Build'
                 sleep 10
             }
         }
         stage('Test') {
             steps {
-                echo 'Test step'
+                echo 'Test'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploy Step'
+                echo 'Deploy'
                 sleep 10
             }
         }
         stage('Docker') {
             steps {
-                echo 'Image step'
+                echo 'Image'
             }
         }
     }
